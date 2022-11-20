@@ -1,3 +1,14 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+<h2>mouseOver</h2>
+text.onMouseOver=function(){
+    text.innerHTML="the_business_rex"
+}
+text.onMouseOut=function(){
+    text-innerHTML="MouseOver"
+}
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
