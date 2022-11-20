@@ -1,25 +1,47 @@
+* {
+  margin: 0;
+  font-family: "Helvetica";
+}
 body {
-    background: rgb(92, 92, 194);
+  background: lightblue;
 }
-ul {
+/*Styling Navbar*/
+#bar ul {
   list-style-type: none;
-
-li {
+}
+.navbar {
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#bar li {
   display: inline;
-  
-.navbar{
-    display: flex;
-    float:left
-}
-
-/*Styling Footer*/
-.footer {
-    display: flex;
-
-}
-
-img {
   padding: 40px;
-  margin: auto;
-
+}
+.navbar:hover {
+  color: aqua;
+}
+/*Landing Page */
+li {
+  font-style: italic;
+}
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.about p {
+  font-style: italic;
+}
+/*Footer*/
+#contacts {
+  background: gray;
+}
+.footer {
+  list-style-type: none;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
 }
